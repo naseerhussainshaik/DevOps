@@ -1,0 +1,65 @@
+
+GIT:
+
+mkdir directory name 
+rmdir directory name
+rm -rf directory name or fle name to delete forcefully
+touch file name
+vim file name
+cat file name
+ls = list of files
+ls -a1 used to view the list of hhidden files
+cp file name folder name
+mv file name folder name
+histrory
+cd directory name
+cd ..
+git clone url
+git add .
+git commit -m "add any commit"
+git push
+git init
+git add .
+git commit -m "add any commit"
+git remote add origin url
+git push origin master
+git status
+
+MAVEN:
+
+mvn archetype:generate
+type any number: 3
+group id: 
+artifact id:
+snapshot id:
+output:
+y:y
+
+then, pom.xml file will be created
+
+to pack that file we need to be follow the commands:
+1. mvn clean
+2. mvn compile
+3. mvn test
+4. mvn package
+5. mvn install
+6. mvn deploy
+
+
+jenkins:
+
+jenkins are well known for it's pipelines and powerfull plugins
+
+ci & cd are not a tool, it's a methodology where jenkins will work under that methodology
+CI - continous integration, it means adding and installing the plugins for work flow
+CD - continous deployment or delivery, it means deploying the work with installed plugins
+
+Jenkins archestructure:
+source code management > jenkins server > maven build > test > production server
+pipelines: declarative pipeline and scripted line
+
+Declarative pipeline is the mostly used pipeline now in the current field and its pipeline are as follows...
+
+
+
+
